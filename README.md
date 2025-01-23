@@ -1,4 +1,4 @@
-# Brainwave_Matrix_Intern
+# Brainwave_Matrix_Solutions_Intern
 ### Internship Readme: SQL/Database Management
 
 #### Internship Overview
