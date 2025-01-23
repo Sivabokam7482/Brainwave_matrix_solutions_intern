@@ -1,6 +1,6 @@
 -- Library Management Systems
 -- Create DataBase
-CREATE DATABASE 'library management';
+CREATE DATABASE library_management;
 
 -- Create the Books table
 CREATE TABLE books (
