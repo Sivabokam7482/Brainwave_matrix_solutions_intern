@@ -1,5 +1,5 @@
 -- Library Management Systems
---Create DataBase
+-- Create DataBase
 CREATE DATABASE 'library management';
 
 -- Create the Books table
@@ -10,7 +10,7 @@ CREATE TABLE books (
   publication_year DATE NULL,
   genre VARCHAR(45) NOT NULL);
 
---Create the authors table
+-- Create the authors table
 CREATE TABLE authors (
   author_id INT NOT NULL PRIMARY KEY,
   Author_name VARCHAR(75) NOT NULL);
@@ -38,14 +38,14 @@ CREATE TABLE Reserverations (
     reserveration_id INT NOT NULL PRIMARY KEY,
     member_id INT NOT NULL,
     book_id INT NOT NULL,
-    Reserveration_date DATE
+    Reserveration_date DATE,
     FOREIGN KEY (Member_Id) REFERENCES Members (Member_Id),
     FOREIGN KEY (Book_Id) REFERENCES Books (Book_Id));
 
 -- Insert sample Book records (you can add more)
-INSERT INSERT books(book_id,title,author,publication_year,genre)
+INSERT INTO books(book_id,title,author,publication_year,genre)
 VALUES(
-    1,'Introduction to Algorithms', 'Thomas H. Cormen' 2009 ,'Computer Science'),
+    1,'Introduction to Algorithms', 'Thomas H. Cormen', 2009 ,'Computer Science'),
     (2,'Electric Machinery Fundamentals', 'Stephen J.Chapman',2018, 'Electrical'),
     (3, 'The Art of Electronics', 'Paul Horowitz', 2015 ,'Electronics'),
     (4, 'Engineering Mechanics: Statics', 'R.C. Hibbeler', 2020, 'Mechanical'),
