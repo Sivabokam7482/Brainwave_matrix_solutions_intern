@@ -3,7 +3,7 @@
 
 #### Internship Overview
 
-Welcome to my internship journey at Brainware Matrix Solutions in the field of SQL and Database Management. During this internship, I had the opportunity to work on two exciting projects: a Library Database Management System. Below is an overview of the tasks accomplished and the skills developed during this internship.
+Welcome to my internship journey at Brainware Matrix Solutions in the field of SQL and Database Management. During this internship, I had the opportunity to work on  exciting project: a Library Database Management System. Below is an overview of the tasks accomplished and the skills developed during this internship.
 
 ---
 
